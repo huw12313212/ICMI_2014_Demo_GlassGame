@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+
+\bibitem{headvideo}
+Arun~Kulshreshth, Joseph J.~LaViola, J.
+\newblock Evaluating performance benefits of head tracking in modern video
+  games.
+\newblock In {\em SUI'13} (2013).
+
+\bibitem{wearable}
+Christian~Bertelsmeyer, Erik~Koch, A. H.~S.
+\newblock A new approach on wearable game design and its evaluation.
+\newblock In {\em NetGames '06}, ACM Press (2006).
+
+\bibitem{robot}
+Corey~Pittman, Joseph J.~LaViola, J.
+\newblock Exploring head tracked head mounted displays for first person robot
+  teleoperation.
+\newblock In {\em IUI'14} (2014).
+
+\bibitem{videogame}
+David~Pinelle, Nelson~Wong, T.~S.
+\newblock Heuristic evaluation for games: usability principles for video game
+  design.
+\newblock In {\em CHI'08}, ACM Press (2008).
+
+\bibitem{tele}
+Dingyun~Zhu, Tom~Gedeon, K.~T.
+\newblock Exploring camera viewpoint control models for a multi-tasking setting
+  in teleoperation.
+\newblock In {\em CHI'11} (2011).
+
+\bibitem{bodygame}
+Elena Márquez~Segura, Annika~Waern, J. M. C.~J.
+\newblock The design space of body games: technological, physical, and social
+  design.
+\newblock In {\em CHI'13}, ACM Press (2013).
+
+\bibitem{statistics}
+{Gaming on Mobile Phone Statistics 2011}.
+\newblock \url{http://itechvision.blogspot.com/2011/08/gaming-on-mobile-
+  phone-statistic}.
+
+\bibitem{infographic}
+{Infographic, Mobile Game statistics}.
+\newblock \url{http://www.digitalbuzzblog.com/infographic-mobile-
+  gaming-statistics-stats-2011/ }.
+
+\bibitem{mobilegame}
+Hannu~Korhonen, E. M. I.~K.
+\newblock Playability heuristics for mobile games.
+\newblock In {\em MobileHCI'06}, ACM Press (2006).
+
+\bibitem{wheel}
+Hinkel, J.~B.
+\newblock Head-guided wheelchair control system.
+\newblock In {\em ASSETS '10} (2010).
+
+\bibitem{lecture}
+{CHI 2014 GlassClass Lecture Notes.}
+\newblock
+  \url{https://docs.google.com/presentation/d/1hoda7iBO7Lv3I_prEKgdg-mP0-Y81e8ueDZ1jCRa0jo/}.
+
+\bibitem{minigame}
+{Glass Mini-Games}.
+\newblock \url{http://developers.google.com/glass/samples/mini-games}.
+
+\bibitem{gameflow}
+Penelope~Sweetser, P.~W.
+\newblock Gameflow: a model for evaluating player enjoyment in games.
+\newblock In {\em CIE'05}, ACM Press (2005).
+
+\bibitem{argame}
+Richard~Wetzel, Rod~McCall, A.-K. B. W.~B.
+\newblock Guidelines for designing augmented reality games.
+\newblock In {\em Future Play'08}, ACM Press (2008).
+
+\bibitem{viewport}
+Stefan~Greuter, D. J.~R.
+\newblock Controlling viewpoint from markerless head tracking in an immersive
+  ball game using a commodity depth based camera.
+\newblock In {\em DS-RT '11} (2011).
+
+\end{thebibliography}
