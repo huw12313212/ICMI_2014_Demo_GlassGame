@@ -1,26 +1,26 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: GlassGameUISTDemo.aux
-The style file: acm-sigchi.bst
-Database file #1: sample.bib
+The top-level auxiliary file: ICMI'14_Demo_GlassGame.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
 You've used 6 entries,
-            2243 wiz_defined-function locations,
-            551 strings with 4619 characters,
+            2118 wiz_defined-function locations,
+            524 strings with 4456 characters,
 and the built_in function-call counts, 1356 in all, are:
-= -- 109
+= -- 114
 > -- 36
 < -- 0
 + -- 16
 - -- 10
-* -- 61
-:= -- 210
+* -- 51
+:= -- 220
 add.period$ -- 17
 call.type$ -- 6
 change.case$ -- 24
 chr.to.int$ -- 0
 cite$ -- 6
-duplicate$ -- 87
-empty$ -- 169
+duplicate$ -- 77
+empty$ -- 164
 format.name$ -- 10
 if$ -- 300
 int.to.chr$ -- 0
@@ -28,14 +28,14 @@ int.to.str$ -- 6
 missing$ -- 5
 newline$ -- 32
 num.names$ -- 10
-pop$ -- 55
+pop$ -- 50
 preamble$ -- 1
 purify$ -- 18
 quote$ -- 0
-skip$ -- 37
+skip$ -- 42
 stack$ -- 0
 substring$ -- 30
-swap$ -- 6
+swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -43,4 +43,4 @@ type$ -- 24
 warning$ -- 0
 while$ -- 10
 width$ -- 7
-write$ -- 54
+write$ -- 59
