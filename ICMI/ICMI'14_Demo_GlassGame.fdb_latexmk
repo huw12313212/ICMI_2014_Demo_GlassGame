@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex ICMI'14_Demo_GlassGame"] 1405273974 "ICMI'14_Demo_GlassGame.aux" "ICMI'14_Demo_GlassGame.bbl" "ICMI'14_Demo_GlassGame" 1405274189
+["bibtex ICMI'14_Demo_GlassGame"] 1405273974 "ICMI'14_Demo_GlassGame.aux" "ICMI'14_Demo_GlassGame.bbl" "ICMI'14_Demo_GlassGame" 1405276157
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "ICMI'14_Demo_GlassGame.aux" 1405274188 2676 9e14ea63d61e3e2b01112aaa45c9030e ""
+  "ICMI'14_Demo_GlassGame.aux" 1405276138 2676 9e14ea63d61e3e2b01112aaa45c9030e ""
   "ICMI'14_Demo_GlassGame.bcf" 0 -1 0 ""
   "sigproc.bib" 1405265912 8586 e9207d6da2868263be085e944e13e59e ""
   (generated)
   "ICMI'14_Demo_GlassGame.blg"
   "ICMI'14_Demo_GlassGame.bbl"
-["pdflatex"] 1405274187 "ICMI'14_Demo_GlassGame.tex" "ICMI'14_Demo_GlassGame.pdf" "ICMI'14_Demo_GlassGame" 1405274189
+["pdflatex"] 1405276138 "ICMI'14_Demo_GlassGame.tex" "ICMI'14_Demo_GlassGame.pdf" "ICMI'14_Demo_GlassGame" 1405276157
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty" 1303254447 8237 52810bdb4db2270e717422560a104aea ""
@@ -58,20 +58,20 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty" 1312409015 26766 56c30c5bea3083b5a0d6fc2ce0063096 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
   "GlassGame2.png" 1404319737 1231758 0ac23f5bea78a6a4aa6dc0733025a779 ""
-  "ICMI'14_Demo_GlassGame.aux" 1405274188 2676 9e14ea63d61e3e2b01112aaa45c9030e ""
+  "ICMI'14_Demo_GlassGame.aux" 1405276138 2676 9e14ea63d61e3e2b01112aaa45c9030e ""
   "ICMI'14_Demo_GlassGame.bbl" 1405273974 1027 f4f63ec49c24c475fcf6f3ac4c95fdf6 "bibtex ICMI'14_Demo_GlassGame"
-  "ICMI'14_Demo_GlassGame.out" 1405274188 256 6d8bfed2027d7de878cb87994d5f3927 ""
-  "ICMI'14_Demo_GlassGame.tex" 1405274186 18661 038371a3ada01121ccd7cef65c5fcca9 ""
+  "ICMI'14_Demo_GlassGame.out" 1405276138 256 6d8bfed2027d7de878cb87994d5f3927 ""
+  "ICMI'14_Demo_GlassGame.tex" 1405276135 18724 4bcb80f0751c96c478cefb1be0715f9b ""
   "acm_proc_article-sp.cls" 1368840662 59629 49fc14f68a73f326183ff0d766bec0c2 ""
   (generated)
   "GlassGameUISTDemo.pdf"
-  "GlassGameUISTDemo.out"
-  "ICMI'14_Demo_GlassGame.tex"
   "acm_proc_article-sp.cls"
+  "ICMI'14_Demo_GlassGame.tex"
+  "GlassGameUISTDemo.out"
   "ICMI'14_Demo_GlassGame.log"
   "GlassGameUISTDemo.aux"
   "ICMI'14_Demo_GlassGame.pdf"
   "ICMI'14_Demo_GlassGame.aux"
   "GlassGame2.png"
-  "GlassGameUISTDemo.log"
   "ICMI'14_Demo_GlassGame.bbl"
+  "GlassGameUISTDemo.log"
