@@ -1,4 +1,4 @@
-\documentclass{sigchi}
+\documentclass{sig-alternate}
 
 % Use this command to override the default ACM copyright statement (e.g. for preprints). 
 % Consult the conference website for the camera-ready copyright statement.
@@ -22,6 +22,8 @@
 \usepackage{graphics} % for EPS, load graphicx instead
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
+\usepackage{multicol}% http://ctan.org/pkg/multicols
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -68,20 +70,34 @@ breaklinks=true,
 \title{Glass Shooter: Exploring First-Person Shooter\\ Game Control with Google Glass}
 
 \numberofauthors{1} 
-\author{\alignauthor Chun-Yen Hsu, Ying-Chao Tung, Silvia Chyou, Han-Yu Wang, Wei-Jer Lin, Mike Y. Chen \\
+\author{\alignauthor Chun-Yen Hsu, Ying-Chao Tung, Silvia Chyou, \\Han-Yu Wang, Wei-Jer Lin, Mike Y. Chen\\
 \affaddr{Mobile and HCI Research Lab, National Taiwan University} \\ 
 \email{\{hcythomas0125,tony61507,silvia.chyou,huw12313212,evin92\}@gmail.com,\\ mikechen@csie.ntu.edu.tw}
 }
 
 
-\teaser{
-\centering \includegraphics[width=1.0\textwidth]{GlassGame2.png} 
-\caption{We implement multiple possible control methods for our FPS Game on Google Glass. (A) Our demos uses head mounted gyro to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip. Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering your smart phone as a small gun. Player can use his phone orientation to aim the target. }
-\label{fig:figure1}
-}
+
+
+
+%\begin{figure}
+ % \includegraphics[width=\textwidth,height=4cm]{GlassGame2.png}
+  %\caption{We implement multiple possible control methods for our FPS Game on Google Glass. (A) Our demos uses head mounted gyro to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip. Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering your smart phone as a small gun. Player can use his phone orientation to aim the target. }
+  %\label{fig:figure1}
+%\end{figure}
+
+
+
+
 
 \maketitle
 
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\linewidth]{GlassGame2.png}
+  \caption{We implement multiple possible control methods for our FPS Game on Google Glass. (A) Our demos uses head mounted gyro to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip. Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering your smart phone as a small gun. Player can use his phone orientation to aim the target.}
+  \label{fig:figure1}
+\end{figure*}
 
 
 \begin{abstract}
