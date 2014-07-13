@@ -1,36 +1,36 @@
 \begin{thebibliography}{1}
 
 \bibitem{headvideo}
-Arun~Kulshreshth, Joseph J.~LaViola, J.
+J.~Arun~Kulshreshth, Joseph J.~LaViola.
 \newblock Evaluating performance benefits of head tracking in modern video
   games.
-\newblock In {\em SUI'13} (2013).
+\newblock In {\em SUI'13}, 2013.
 
 \bibitem{robot}
-Corey~Pittman, Joseph J.~LaViola, J.
+J.~Corey~Pittman, Joseph J.~LaViola.
 \newblock Exploring head tracked head mounted displays for first person robot
   teleoperation.
-\newblock In {\em IUI'14} (2014).
+\newblock In {\em IUI'14}, 2014.
 
 \bibitem{tele}
-Dingyun~Zhu, Tom~Gedeon, K.~T.
+K.~T. Dingyun~Zhu, Tom~Gedeon.
 \newblock Exploring camera viewpoint control models for a multi-tasking setting
   in teleoperation.
-\newblock In {\em CHI'11} (2011).
+\newblock In {\em CHI'11}, 2011.
 
 \bibitem{wheel}
-Hinkel, J.~B.
+J.~B. Hinkel.
 \newblock Head-guided wheelchair control system.
-\newblock In {\em ASSETS '10} (2010).
+\newblock In {\em ASSETS '10}, 2010.
 
 \bibitem{minigame}
 {Glass Mini-Games}.
 \newblock \url{http://developers.google.com/glass/samples/mini-games}.
 
 \bibitem{viewport}
-Stefan~Greuter, D. J.~R.
+D.~J.~R. Stefan~Greuter.
 \newblock Controlling viewpoint from markerless head tracking in an immersive
   ball game using a commodity depth based camera.
-\newblock In {\em DS-RT '11} (2011).
+\newblock In {\em DS-RT '11}, 2011.
 
 \end{thebibliography}
