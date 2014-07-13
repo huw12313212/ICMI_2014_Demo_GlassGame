@@ -24,6 +24,7 @@
 \usepackage{url}      % llt: nicely formatted URLs
 \usepackage{multicol}% http://ctan.org/pkg/multicols
 \usepackage{graphicx}% http://ctan.org/pkg/graphicx
+\usepackage{float}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -70,7 +71,7 @@ breaklinks=true,
 \title{Glass Shooter: Exploring First-Person Shooter\\ Game Control with Google Glass}
 
 \numberofauthors{1} 
-\author{\alignauthor Chun-Yen Hsu, Ying-Chao Tung, Silvia Chyou, \\Han-Yu Wang, Wei-Jer Lin, Mike Y. Chen\\
+\author{\alignauthor Chun-Yen Hsu, Ying-Chao Tung, Silvia Chyou, \\Han-Yu Wang, Jer-Wei Lin, Mike Y. Chen\\
 \affaddr{Mobile and HCI Research Lab, National Taiwan University} \\ 
 \email{\{hcythomas0125,tony61507,silvia.chyou,huw12313212,evin92\}@gmail.com,\\ mikechen@csie.ntu.edu.tw}
 }
@@ -93,9 +94,8 @@ breaklinks=true,
 
 
 \begin{figure*}
-  \centering
   \includegraphics[width=1\linewidth]{GlassGame2.png}
-  \caption{We implement multiple possible control methods for our FPS Game on Google Glass. (A) Our demos uses head mounted gyro to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip. Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering your smart phone as a small gun. Player can use his phone orientation to aim the target.}
+  \caption{We implement multiple possible control methods for ``Glass Shooter''. (A) Our demos uses head mounted gyroscope to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip: Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering smart phone as a small gun: the player can use her phone orientation to aim the target.}
   \label{fig:figure1}
 \end{figure*}
 
@@ -116,65 +116,76 @@ Smart Glasses offer the opportunity to use head mounted sensors, such as gyrosco
 %Game is one of the most important application in computer science.
 
 %There are several Smart Glasses products on the market over these years, we choose the most famous one, Google Glass, as our main research platform. To realize the current gameplay experience on google glass, 
-To better understand game design for Smart Glasses, we invited 24 users to play 4 existing games~\cite{minigame} on the most popular Smart Glasses, Google Glass. The four games have been selected to span different game types and control styles. Our study showed three design challenges that are not discussed in current game design guidelines: ``Limited control'', ``Eye strain'' and ``Social acceptance''. 
+Smart Glasses provide several new features, such as always available display, head mounted sensors, and first person view. These new elements do not exist in the traditional game platform. How to apply these techniques to create a relevant game experience on Smart Glasses is still an unexplored area.
 
-Also, compared with other gaming platforms, Smart Glasses lack traditional input method like mouse, keyboard, joystick, or touch screen. However, there are some non-traditional wearable sensors such as camera, touchpad, microphone, gyroscope, and accelerometer. Our study showed that most of the users preferred using gyro, and preferred playing First-Person Shooter (FPS) games on Google Glass. Therefore, we implement a FPS game,``Glass Shooter'', with multiple control styles to explore game design space for Smart Glasses and to understand user preference.
-This demo focuses on exploring the ``limited control'' issue and compares Glass-only input to Glass+smartphone input. 
+To better understand game design for Smart Glasses, we invited 24 users to play 4 existing games~\cite{minigame} on the most popular Smart Glasses, Google Glass. The four games have been selected to span different game types and control styles. Our study showed three design challenges that are not discussed in current game design guidelines: ``Limited control'', ``Eye strain'' and ``Social acceptance''. Moreover, after playing these 4 selected glass games, most participants expressed that they prefer to play First-Person Shooter(FPS) game on Google Glass. 
+
+%Also, compared with other gaming platforms, Smart Glasses lack traditional input method like mouse, keyboard, joystick, or touch screen. However, there are some non-traditional wearable sensors such as camera, touchpad, microphone, gyroscope, and accelerometer. Our study showed that most of the users preferred using gyro, and preferred playing First-Person Shooter (FPS) games on Google Glass. Therefore, we implement a FPS game,``Glass Shooter'', with multiple control styles to explore game design space for Smart Glasses and to understand user preference.
+%This demo focuses on exploring the ``limited control'' issue and compares Glass-only input to Glass+smartphone input. 
+
+In this demo, we focus on the issue ``Limited control''. Compared with other gaming platforms, Smart Glasses lack traditional input method like mouse, keyboard, joystick, or touch screen. However, there are some non-traditional wearable sensors such as camera, touchpad, microphone, gyroscope, and accelerometer.  
 
 %Eyewear computers, such as google glasses implementation, are claimed to be the next evolution beyond smartphones. In addition, game industry in the US earned about 21.53 dollars in 2014\cite{essentialfacts}. Recent statistics show that around 70-80\% of all mobile downloads is composed of mobile games\cite{statistics,infographic}. Traditional game design has tons of guidelines\cite{videogame,mobilegame,bodygame,gameflow,argame,wearable}. However, the game design for smart glass game is still an unexplored area. Hence, we want to explore the game design space on smart glass. And after concerning current market share, we choose Google Glass as our candidate.
 
 %First we want to realize the current game play experience on google glass, so we recruited 24 users to play existing google glass game\cite{minigame} with different content or control style. After user study, we found that about one third of users want to play First-Person Shooter(FPS) game on google glass. So we decide to implement a FPS game on google glass for demonstration. In addition, we also provide multiple control styles to evaluate and find out the best control way on google glass. 
 
-\section{Game Prototype}
+%\section{Game Prototype}
 
-In order to get deeper understanding of glass game design, we implement a game by ourself, so that we can have some control variable to change directly by ourselves and compare with different settings. 
-According to user imagination from user study 1, there are five different type of game which players suggest. We choose FPS, with the highest number of users who wants to play, as our game type.
-And FPS also has the most control issues in it's type. 
-We expect that our FPS game can satisfy most user and get  useful knowledge by studying and implement this type of game.
 
-\subsection{Control}
-There are four main controls in FPS game. 
-The first control is the viewport control, which emphasizes on how user can change camera's perspective and observes the surrounding environment.
-The second one is aim control, which attaches importance to  know how player aim their target or enemy. 
-The third control is fire control, laying stress on how player trigger the fire to beat their enemy. 
-And the last one is the move control, which focuses on how  player controls avator's position and dodges the bullet from enemy.
+Considering traditional game design and new features on Smart Glasses, we implement a game, ``Glass Shooter'', a FPS game with multiple control styles on Google Glass. With ``Glass Shooter'', we can collect user feedback of different control schemes and understand user preference. 
+%so that we can have some control variable to change directly by ourselves and compare with different settings. 
+%According to user imagination from user study 1, there are five different type of game which players suggest. We choose FPS, with the highest number of users who wants to play, as our game type.
+%And FPS also has the most control issues in it's type. 
+%We expect that our FPS game can satisfy most user and get useful knowledge by studying and implement this type of game.
 
-Although smart glass is new wearable device to interact with users and will be more powerful in the future, it does not meant that smart glass will replace smart phone\cite{lecture}. 
-With these two different typies of device, they should complement each other to make up their own deficiency.
-Furthermore, google glass is designed to always connects with smart phone through bluetooth. So we can include smart phone as controller for our game designs and control scheme intuitively.
+\section{Control}
+There are four main controls in FPS games: (a)Viewport Control, (b)Aim Control, (c)Fire Control, (d)Move Control.
+With viewport control, users can change camera's perspective and observe the surrounding environment.
+Aim control is about how players moving the crosshair.
+%The third control is fire control, laying stress on how player trigger the fire to beat their enemy. 
+%And the last one is the move control, which focuses on how  player controls avator's position and dodges the bullet from enemy.
+Besides, users open fire with fire control and move their avators through move control in the game.
 
-According to previous work\cite{headvideo,tele,robot,viewport}, using head orientation as a viewport control is undoubtedly intuitive. And user prefered because of the metaphor of moving our own head. However, we can't confirm whether using head orientation is really suitable for users to aim the target. 
-So we supposed 3 different aim control schemes to test which would be the most favorite control for user. 
-Three different aim control schemes are listing below:
+%Although smart glass is new wearable device to interact with users and will be more powerful in the future, it does not meant that smart glass will replace smart phone\cite{lecture}. 
+%With these two different typies of device, they should complement each other to make up their own deficiency.
+%Furthermore, google glass is designed to always connects with smart phone through bluetooth. So we can include smart phone as controller for our game designs and control scheme intuitively.
+To extend the diversity of our input controls, we design control methods not only with input manners available on Google Glass, but also with possible game control methods on Smart Phones.
+
+According to previous work\cite{headvideo,tele,robot,viewport}, using head orientation as a viewport control is undoubtedly intuitive.%However, we can't confirm whether using head orientation is really suitable for users to aim the target.
+Therefore, in this work, we only explore the remaining control problems on Aim Control, Fire Control, and Move Control. 
+First, we supposed 3 different aim control schemes to test which would be the most favorite control for users. 
+Three different Aim Control schemes are listing below:
 
 \begin{enumerate}
-\item Viewport aiming scheme: The most traditional method we choose. Game designer just need to put a sight bead in the center of viewport. Player can aim the enemy by using their head to move their viewport. In other words, player are using head orientation to aim the target.
+\item Viewport aiming scheme: The crosshair is always at the center of the viewport. Player can aim the enemy by using their head to move their viewport. In other words, player are using head orientation to aim the target.
 
-\item Gun aiming scheme: Considering your smart phone as a small gun. Player can use his phone orientation to aim the target. The sight bead will show on the google glass screen to help user aim at even micro movement.
+\item Gun aiming scheme: Considering your smart phone as a small gun. The player can use the phone orientation to aim the target. The crosshair will be controlled by the direction of the phone.
 
-\item Phone joystick scheme: Using smart phone as a joystick to move the sight bead on the glass screen.
+\item Phone joystick scheme: Using smart phone as a joystick to move the crosshair on the glass screen.
 \end{enumerate}
 
-We also bring up 3 different firing controls as below:
+We also bring up 3 different fire controls as below:
 
 \begin{enumerate}
-\item Phone trigger scheme: Using touch screen on mobile phone as the firing trigger. Player can just fire by tapping their phone touchscreen.
+\item Phone trigger scheme: Using touch screen on mobile phone as the fire trigger. Players can just open fire by tapping their phone touchscreen.
 
-\item Glass tapping scheme: Player uses fingers to tap on glass touchpad to trigger gun fire.
+\item Glass tapping scheme: Player uses fingers to tap on glass touchpad to open fire.
 
-\item Voice control scheme: Player uses voice control, such as the sound of ``Bang'', to tirgger gun fire.
+\item Voice control scheme: Player uses voice control, such as the sound of ``Bang'', to open fire.
 
-\item Blink eye scheme: Player uses intentional eye blinking as a fire trigger.
+\item Eye winking scheme: Player uses intentional eye winking as a fire trigger.
 \end{enumerate}
 
-We propose 3 moving control scheme :
+We propose 3 moving control schemes:
 
 \begin{enumerate}
-\item Head gesture scheme: We borrow the control style from the work of Hinkel et al.\cite{wheel}, and implement the system in our FPS game control system.
+\item Head gesture scheme: We implement the system from the work of Hinkel et al.\cite{wheel} in our FPS game control system.
 
-\item Phone controller scheme: Using smart phone as a joystick to move the player by manipulating the touch screen.
+\item Glass touchpad: We designed a set of gestures on the touchpad strip. Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half.
 
-\item On track moving scheme: This is a trick one. We can't exclude the possibility that control player's movement is not suitable for glass game. Therefore, we design a pre-defined track for player in this scheme, and player will move on the track automaticlly. So player can focus on aiming and fighting, rather than the movement control.
+\item Phone controller scheme: Using virtual joystick on Smart Phone to move the character.
+
+\item On track moving scheme: There exists possibilities that controlling player's movement is not completely suitable for glass game. Therefore, we design a pre-defined track for player in this scheme, and the avatar will move on the track automaticlly. So player can focus on aiming and fighting, rather than the movement control.
 \end{enumerate}
 %\subsubsection{Phone aiming}
 % Aiming by using smart phone as a gun
