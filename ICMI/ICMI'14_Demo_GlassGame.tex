@@ -59,14 +59,14 @@
   \includegraphics[width=1\linewidth]
     {GlassGame2.png}
        \captionof{figure}{We implement multiple possible control methods for ``Glass Shooter''. (A) Our demos uses head mounted gyroscope to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip: Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering smart phone as a small gun: the player can use her phone orientation to aim the target.}
-  \label{fig:figure1}\bigskip
+  \label{fig:figure}\bigskip
     }% ... an image
 
 \makeatother
 
 \maketitle
 \begin{abstract}
-Smart Glasses offer the opportunity to use head mounted sensors, such as gyroscope and accelerometers, to enable new types of game interaction. To better understand game play experience on Smart Glasses, we recruited 24 participants to play four current games on Google Glass that uses different interaction methods, including gyroscope, voice, touchpad, and in-air gesture. Study results showed that participants were concerned with comfort and social acceptance. Also, their favorite input method was gyroscope, and their favorite game type was First-Person Shooter (FPS) game. Hence, we implemented a FPS game on Google Glass using gyroscope for changing the viewport, and divide FPS controls into four categories: (a)Viewport Control, (b)Aim Control, (c)Fire Control, (d)Move Control. We implemented multiple control methods in each category to evaluate and explore glass game control design.
+Smart Glasses offer the opportunity to use head mounted sensors, such as gyroscope and accelerometers, to enable new types of game interaction. To better understand game play experience on Smart Glasses, we recruited 24 participants to play four current games on Google Glass that uses different interaction methods, including gyroscope, voice, touchpad, and in-air gesture. Study results showed that participants were concerned with comfort and social acceptance. Also, their favorite input method was gyroscope, and their favorite game type was First-Person Shooter (FPS) game. Hence, we implemented a FPS game on Google Glass using gyroscope for changing the viewport(see Figure~\ref{fig:figure}.A), and divide FPS controls into four categories: (a)Viewport Control, (b)Aim Control, (c)Fire Control, (d)Move Control. We implemented multiple control methods in each category to evaluate and explore glass game control design.
 \end{abstract}
 
 
@@ -124,9 +124,9 @@ Three different Aim Control schemes are listing below:
 \begin{enumerate}
 \item Viewport aiming scheme: The crosshair is always at the center of the viewport. Player can aim the enemy by using their head to move their viewport. In other words, player are using head orientation to aim the target.
 
-\item Gun aiming scheme: Considering your smart phone as a small gun. The player can use the phone orientation to aim the target. The crosshair will be controlled by the direction of the phone.
+\item Gun aiming scheme: Considering your smart phone as a small gun. The player can use the phone orientation to aim the target. The crosshair will be controlled by the direction of the phone.(see Figure~\ref{fig:figure}.D)
 
-\item Phone joystick scheme: Using smart phone as a joystick to move the crosshair on the glass screen.
+\item Phone joystick scheme: Using smart phone as a joystick to move the crosshair on the glass screen.(see Figure~\ref{fig:figure}.C)
 \end{enumerate}
 
 We also bring up 3 different fire controls as below:
@@ -134,7 +134,7 @@ We also bring up 3 different fire controls as below:
 \begin{enumerate}
 \item Phone trigger scheme: Using touch screen on mobile phone as the fire trigger. Players can just open fire by tapping their phone touchscreen.
 
-\item Glass tapping scheme: Player uses fingers to tap on glass touchpad to open fire.
+\item Glass tapping scheme: Player uses fingers to tap on glass touchpad to open fire.(see Figure~\ref{fig:figure}.B)
 
 \item Voice control scheme: Player uses voice control, such as the sound of ``Bang'', to open fire.
 

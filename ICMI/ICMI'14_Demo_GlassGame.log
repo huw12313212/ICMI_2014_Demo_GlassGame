@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 00:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 01:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,12 +359,6 @@ Package pdftex.def Info: GlassGame2.png used on input line 67.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
 
-Overfull \hbox (12.28566pt too wide) in paragraph at lines 69--71
-\T1/ptm/m/n/9 gories: (a)Viewport Con-trol, (b)Aim Con-trol, (c)Fire Con-trol, 
-(d)Move
- []
-
-
 Overfull \hbox (4.19478pt too wide) in paragraph at lines 84--85
 \T1/ptm/m/n/9 able dis-play, head mounted sen-sors, and first-person view-port.
  These
@@ -399,12 +393,12 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
 (./ICMI'14_Demo_GlassGame.aux) ) 
 Here is how much of TeX's memory you used:
  3116 strings out of 493315
- 40554 string characters out of 6137904
- 105932 words of memory out of 5000000
+ 40553 string characters out of 6137904
+ 106932 words of memory out of 5000000
  6473 multiletter control sequences out of 15000+600000
  51726 words of font info for 68 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,28p,935b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,28p,979b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/d
 vips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/uc
 rb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
@@ -412,7 +406,7 @@ b></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1511906 bytes).
+Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1511967 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
