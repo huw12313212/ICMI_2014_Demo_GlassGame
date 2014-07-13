@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 00:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,8 +359,8 @@ Package pdftex.def Info: GlassGame2.png used on input line 67.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
 
-Overfull \hbox (6.2647pt too wide) in paragraph at lines 69--71
-\T1/ptm/m/n/9 gories: (a)Viewport con-trol, (b)Aim con-trol, (c)Fire con-trol, 
+Overfull \hbox (12.28566pt too wide) in paragraph at lines 69--71
+\T1/ptm/m/n/9 gories: (a)Viewport Con-trol, (b)Aim Con-trol, (c)Fire Con-trol, 
 (d)Move
  []
 
@@ -412,7 +412,7 @@ b></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1511915 bytes).
+Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1511906 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
