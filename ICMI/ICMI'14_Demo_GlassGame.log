@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 01:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 01:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -476,7 +476,13 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 Non-PDF special ignored!
 
  <./GlassGame2.png>]
-Overfull \hbox (2.89847pt too wide) in paragraph at lines 187--188
+Overfull \hbox (4.0958pt too wide) in paragraph at lines 153--157
+\T1/ptm/m/n/9 view-port con-trol is un-doubt-edly in-tu-itive (see Fig-ure [][]
+1[][].A).Therefore,
+ []
+
+
+Overfull \hbox (2.89847pt too wide) in paragraph at lines 188--189
 \T1/ptm/m/n/9 trol-ling player's move-ment is not com-pletely suit-able for gla
 ss
  []
@@ -492,17 +498,17 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 28.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
 
 (./ICMI'14_Demo_GlassGame.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `ICMI'14_Demo_GlassGame.out' has not changed.
 
 (rerunfilecheck)             Checksum: 6D8BFED2027D7DE878CB87994D5F3927;256.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
  6649 strings out of 493315
@@ -519,10 +525,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1513676 bytes).
+Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1513879 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  29 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
