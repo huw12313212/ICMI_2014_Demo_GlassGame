@@ -1,4 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 01:38
+<<<<<<< HEAD:SIGCHI2013LaTeX/GlassGameUISTDemo.log
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.28)  14 JUL 2014 01:35
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  14 JUL 2014 01:25
+>>>>>>> 09144a01ddad44871bc92053d2123cb5e45a04a5:ICMI/ICMI'14_Demo_GlassGame.log
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,27 +363,22 @@ Package pdftex.def Info: GlassGame2.png used on input line 67.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
 
-Overfull \hbox (12.28566pt too wide) in paragraph at lines 69--71
-\T1/ptm/m/n/9 gories: (a)Viewport Con-trol, (b)Aim Con-trol, (c)Fire Con-trol, 
-(d)Move
- []
+<<<<<<< HEAD:SIGCHI2013LaTeX/GlassGameUISTDemo.log
 
+Underfull \vbox (badness 6316) has occurred while \output is active []
 
+ [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+=======
 Overfull \hbox (4.19478pt too wide) in paragraph at lines 84--85
 \T1/ptm/m/n/9 able dis-play, head mounted sen-sors, and first-person view-port.
  These
  []
+>>>>>>> 09144a01ddad44871bc92053d2123cb5e45a04a5:ICMI/ICMI'14_Demo_GlassGame.log
 
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./GlassGame2.png>]
-Overfull \hbox (7.56076pt too wide) in paragraph at lines 119--123
-\T1/ptm/m/n/9 View-port Con-trol is un-doubt-edly in-tu-itive (see Fig-ure 1[].
-A).Therefore,
- []
-
-
 Overfull \hbox (2.89847pt too wide) in paragraph at lines 153--154
 \T1/ptm/m/n/9 trol-ling player's move-ment is not com-pletely suit-able for gla
 ss
@@ -401,16 +400,46 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 28.
+<<<<<<< HEAD:SIGCHI2013LaTeX/GlassGameUISTDemo.log
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+ (./GlassGameUISTDemo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package rerunfilecheck Info: File `GlassGameUISTDemo.out' has not changed.
+(rerunfilecheck)             Checksum: 6D8BFED2027D7DE878CB87994D5F3927;256.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
+ ) 
+=======
 ) [2]
 (./ICMI'14_Demo_GlassGame.aux) ) 
+>>>>>>> 09144a01ddad44871bc92053d2123cb5e45a04a5:ICMI/ICMI'14_Demo_GlassGame.log
 Here is how much of TeX's memory you used:
  3116 strings out of 493315
  40553 string characters out of 6137904
- 105932 words of memory out of 5000000
+ 106932 words of memory out of 5000000
  6473 multiletter control sequences out of 15000+600000
  51726 words of font info for 68 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,28p,935b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+<<<<<<< HEAD:SIGCHI2013LaTeX/GlassGameUISTDemo.log
+ 41i,11n,29p,919b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on GlassGameUISTDemo.pdf (2 pages, 1514560 bytes).
+=======
+ 41i,10n,28p,979b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/d
 vips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/uc
 rb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
@@ -418,7 +447,8 @@ b></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1511929 bytes).
+Output written on ICMI'14_Demo_GlassGame.pdf (2 pages, 1511967 bytes).
+>>>>>>> 09144a01ddad44871bc92053d2123cb5e45a04a5:ICMI/ICMI'14_Demo_GlassGame.log
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
