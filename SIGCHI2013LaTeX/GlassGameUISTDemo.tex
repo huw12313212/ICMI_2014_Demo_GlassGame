@@ -25,6 +25,7 @@
 \usepackage{multicol}% http://ctan.org/pkg/multicols
 \usepackage{graphicx}% http://ctan.org/pkg/graphicx
 \usepackage{float}
+\usepackage{capt-of}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -32,7 +33,16 @@
   \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\bf\ttfamily}}}
 \makeatother
 \urlstyle{leo}
+\makeatletter
+\let\@oldmaketitle\@maketitle% Store \@maketitle
+\renewcommand{\@maketitle}{\@oldmaketitle% Update \@maketitle to insert...
+  \includegraphics[width=1\linewidth]
+    {GlassGame2.png}
+	\captionof{figure}{We implement multiple possible control methods for ``Glass Shooter''. (A) Our demos uses head mounted gyroscope to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip: Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering smart phone as a small gun: the player can use her phone orientation to aim the target.}
+  \label{fig:figure1}\bigskip
+    }% ... an image
 
+\makeatother
 
 % To make various LaTeX processors do the right thing with page size.
 \def\pprw{8.5in}
@@ -67,9 +77,7 @@ breaklinks=true,
 
 % End of preamble. Here it comes the document.
 \begin{document}
-
 \title{Glass Shooter: Exploring First-Person Shooter\\ Game Control with Google Glass}
-
 \numberofauthors{1} 
 \author{\alignauthor Chun-Yen Hsu, Ying-Chao Tung, Silvia Chyou, \\Han-Yu Wang, Jer-Wei Lin, Mike Y. Chen\\
 \affaddr{Mobile and HCI Research Lab, National Taiwan University} \\ 
@@ -92,22 +100,13 @@ breaklinks=true,
 
 \maketitle
 
-
-\begin{figure*}
-  \includegraphics[width=1\linewidth]{GlassGame2.png}
-  \caption{We implement multiple possible control methods for ``Glass Shooter''. (A) Our demos uses head mounted gyroscope to control the first-person viewport. (B) We designed a set of gestures on the touchpad strip: Players can move forward by touching the front half of the touchpad, and move backward by touching the rear half. Weapons can be fired by using taps. (C) Smartphones as virtual controller: two virtual joysticks and buttons to move and to change the viewport and to fire weapons; (D) Considering smart phone as a small gun: the player can use her phone orientation to aim the target.}
-  \label{fig:figure1}
-\end{figure*}
-
-
 \begin{abstract}
 Smart Glasses offer the opportunity to use head mounted sensors, such as gyroscope and accelerometers, to enable new types of game interaction. To better understand game play experience on Smart Glasses, we recruited 24 participants to play four current games on Google Glass that uses different interaction methods, including gyro, voice, touchpad, and in-air gesture. Study results showed that participants were concerned with comfort and social acceptance. Also, their favorite input method was gyroscope, and their favorite game type was First-Person Shooter (FPS) game. Hence, we implemented a FPS game on Google Glass using gyro for changing the viewport, and divide FPS controls into four categories: (a)viewport control, (b)aim control, (c)fire control, (d)move control. We implemented multiple control method in each category to evaluate and explore glass game control design.
 \end{abstract}
 
 \keywords{
-	Google Glass, Wearable Devices, Game Design, Head Mounted Display, Multi-Modal, Mobile Phone, Gestures, Physical Activity, Mixed Reality, Augmented Reality, Virtual Reality. 
+	Google Glass, Wearable Devices, Game Design, Head Mounted Display, Multi-Modal, Mobile Phone, Gestures. 
 }
-
 \category{K.8.0.}{Personal Computing}{General Games}
 
 
@@ -202,9 +201,11 @@ We propose 3 moving control schemes:
 %To compare various of control method, we also provide traditional joystick for players on our controller, smart phone. By using traditional joystick, players can turning their angle of view and move their position directily.
 
 \section{Conclusion and Future Work}
-
+We have invited 24 players to play 4 different built-in games on google glass. Through the investigations, we observed three main categories of challenges we may meet when developing glass games, which are ``Limited control'', ``Eye strain'' and ``Social acceptance'' respectively. And we cast our focus mainly on discussing ``limited control'', about different types of controlling methods we may encounter in a first-person shooter game on glasses.
+Therefore, after refering to both previous game design and glass features, we've classified the control issues among FPS glass game into four main categories as follows: viewport control, aimimg control, firing control, and last but not least, the moving control. For all these four terms of controls mentioned above, we've proposed several methods to meet the requirements seperately.
+In the future, we will conduct a series of user studies to clarify which method is the most suitable for each four class of controls. Therefore we can develop a more intuitive controlling methods for FPS glass games. Furthermore, we will also move on to discuss the ``Eye Strain'' and ``Social Acceptance'' problems we brought up before.
 %In this demonstration, we presented a first-person shooter game based on our user feedback from existing glass games. To explore the glass gaming control, which is still an open question nowadays, we designed and implemented multiple control styles; (a) Glass Control; (b) Smartphone as controllers; (c) Smartphone as tangible device; this work still lacks of system validation, so we are planning to perform a formal user study currently. Moreover, we are interested in ``Eye Strain'' and ``Social Acceptance'' problems on Google Glass because these puzzles do not appear in earlier works about other mobile devices.
-To explore the complete game design space on Google Glass, we will accomplish a series of user studies to evaluate these two issues we found in our previous study in the following months. 
+%To explore the complete game design space on Google Glass, we will accomplish a series of user studies to evaluate these two issues we found in our previous study in the following months. 
 %we hope our effort can inspire more glass game developers to develope more intuitive and suitable controls. With better gaming controls, we belive it can enhance glass game play experience significantly than before, and we also hope to be able to inspire more exploration of smart glasses gaming and spread game entertainment for more people.
 
 
